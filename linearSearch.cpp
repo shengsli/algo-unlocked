@@ -1,3 +1,6 @@
+// sheng@x220t:~/algo-unlocked$ g++ linearSearch.cpp -o linearSearch.output
+// sheng@x220t:~/algo-unlocked$ ./linearSearch.output 
+
 #include <cstdio>
 
 int linearSearch(int arr[], int numOfEls, int val) {
@@ -8,8 +11,9 @@ int linearSearch(int arr[], int numOfEls, int val) {
 }
 
 int main (int argc, char *argv[]) {
-	int val = 3;
-	int arr[5] = {1,2,3,4,5};
-	int idx = linearSearch(arr,5,val);
+ 	int val = 3;
+	int numOfEls = 5;
+	int arr[numOfEls] = {1,2,3,4,5};
+	int idx = linearSearch(arr,numOfEls,val);
 	printf("find %d at %d\n", val, idx);
 }
