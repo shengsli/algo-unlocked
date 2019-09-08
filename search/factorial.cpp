@@ -1,5 +1,5 @@
-// sheng@x220t:~/algo-unlocked$ g++ factorial.cpp -o factorial.output
-// sheng@x220t:~/algo-unlocked$ ./factorial.output 
+// sheng@x220t:~/algo-unlocked$ g++ factorial.cpp -o factorial.out
+// sheng@x220t:~/algo-unlocked$ ./factorial.out
 
 #include <cstdio>
 

@@ -1,5 +1,5 @@
-// sheng@x220t:~/algo-unlocked$ g++ linearSearch.cpp -o linearSearch.output
-// sheng@x220t:~/algo-unlocked$ ./linearSearch.output 
+// sheng@x220t:~/algo-unlocked$ g++ linearSearch.cpp -o linearSearch.out
+// sheng@x220t:~/algo-unlocked$ ./linearSearch.out
 
 #include <cstdio>
 

@@ -1,5 +1,5 @@
-// sheng@x220t:~/algo-unlocked$ g++ binarySearch.cpp -o binarySearch.output
-// sheng@x220t:~/algo-unlocked$ ./binarySearch.output 
+// sheng@x220t:~/algo-unlocked$ g++ binarySearch.cpp -o binarySearch.out
+// sheng@x220t:~/algo-unlocked$ ./binarySearch.out
 
 #include <cstdio>
 
@@ -16,8 +16,8 @@ int binarySearch (int arr[], int numOfEls, int val) {
 
 int main (int argc, char *argv[]) {
  	int val = 3;
-	int numOfEls = 5;
+	const int numOfEls = 5;
 	int arr[numOfEls] = {1,2,3,4,5};
-	int idx = binarySearch(arr,numOfEls,val);
+	int idx = binarySearch(arr,numOfEls-1,val);
 	printf("find %d at %d\n", val, idx);
 }

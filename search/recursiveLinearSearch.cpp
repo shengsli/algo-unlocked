@@ -1,5 +1,5 @@
-// sheng@x220t:~/algo-unlocked$ g++ recursiveLinearSearch.cpp -o recursiveLinearSearch.output
-// sheng@x220t:~/algo-unlocked$ ./recursiveLinearSearch.output 
+// sheng@x220t:~/algo-unlocked$ g++ recursiveLinearSearch.cpp -o recursiveLinearSearch.out
+// sheng@x220t:~/algo-unlocked$ ./recursiveLinearSearch.out
 
 #include <cstdio>
 
